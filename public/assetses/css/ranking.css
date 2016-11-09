@@ -1,0 +1,176 @@
+/** Ranking **/
+.color-0 {
+	color : #bcbcbc;
+}
+.color-2 {
+	color : #9e0b0f;
+	text-shadow : 0px 0px 3px #9e0b0f;
+}
+.color-3 {
+	color : #ff0000;
+	text-shadow : 0px 0px 3px #ff0000;
+}
+.color-4 {
+	color : #f26522;
+	text-shadow : 0px 0px 3px #f26522;
+}
+.color-5 {
+	color : #00a651;
+	text-shadow : 0px 0px 3px #00a651;
+}
+.color-6 {
+	color : #39b54a;
+	text-shadow : 0px 0px 3px #39b54a;
+}
+.color-7 {
+	color : #00ffff;
+	text-shadow : 0px 0px 3px #00ffff;
+}
+.color-8 {
+	color : #00aeef;
+	text-shadow : 0px 0px 3px #00aeef;
+}
+.color-9 {
+	color : #005fe1;
+	text-shadow : 0px 0px 3px #005fe1;
+}
+.color-10 {
+	color : #f06eaa;
+	text-shadow : 0px 0px 3px #f06eaa;
+}
+.color-11 {
+	color : #92278f;
+	text-shadow : 0px 0px 3px #92278f;
+}
+.color-12 {
+	color : #8dc63f;
+	text-shadow : 0px 0px 3px #8dc63f;
+}
+.color-13 {
+	color : #ffde00;
+	text-shadow : 0px 0px 3px #ffde00;
+}
+/** Neon **/
+.neon {
+	animation: neon 20s infinite;
+}
+.ranking {
+	width: 50px;
+}
+.acctype-0 {
+	background: url('/ranking/member.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-111 {
+	background: url('/ranking/owner.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-1 {
+	background: url('/ranking/co-owner.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-2 {
+	background: url('/ranking/head-admin.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-3 {
+	background: url('/ranking/admin.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-4 {
+	background: url('/ranking/head-mod.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-5 {
+	background: url('/ranking/senior-mod.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-6 {
+	background: url('/ranking/mod.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-7 {
+	background: url('/ranking/head-dj.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-8 {
+	background: url('/ranking/female-dj.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-9 {
+	background: url('/ranking/male-dj.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-10 {
+	background: url('/ranking/developer.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-11 {
+	background: url('/ranking/premium.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-12 {
+	background: url('/ranking/sponsor.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-13 {
+	background: url('/ranking/partner.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-14 {
+	background: url('/ranking/newbie.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-15 {
+	background: url('/ranking/chatter of the month.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.acctype-16 {
+	background: url('/ranking/tambayer.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.highlight {
+    -webkit-animation-name: highlight;
+    -webkit-animation-duration: 4s;
+    animation-name: highlight;
+    animation-duration: 4s;
+}
+@-webkit-keyframes highlight {
+    from {background-color: white;}
+    to {background-color: yellow;}
+}
+
+@keyframes highlight {
+    from {background-color: white;}
+    to {background-color: yellow;}
+}
+
+@keyframes neon 
+{
+0% {color:#accbe8;text-shadow: 0px 0px 3px #accbe8} 
+10% {color:#9295ca;text-shadow: 0px 0px 3px #9295ca} 
+20% {color:#0eceb4;text-shadow: 0px 0px 3px #0eceb4}
+30% {color:#a9b2b1;text-shadow: 0px 0px 3px #a9b2b1} 
+40% {color:#cdb48c;text-shadow: 0px 0px 3px #cdb48c} 
+50% {color:#ffd602;text-shadow: 0px 0px 3px #ffd602} 
+60% {color:#e66665;text-shadow: 0px 0px 3px #e66665} 
+70% {color:#f47d43;text-shadow: 0px 0px 3px #f47d43} 
+80% {color:#ae70af;text-shadow: 0px 0px 3px #ae70af} 
+90% {color:#076bb6;text-shadow: 0px 0px 3px #076bb6} 
+100% {color:#accbe8;text-shadow: 0px 0px 3px #accbe8} 
+} 
+
+@-webkit-keyframes neon 
+{ 
+0% {color:#accbe8;text-shadow: 0px 0px 3px #accbe8} 
+10% {color:#9295ca;text-shadow: 0px 0px 3px #9295ca} 
+20% {color:#0eceb4;text-shadow: 0px 0px 3px #0eceb4}
+30% {color:#a9b2b1;text-shadow: 0px 0px 3px #a9b2b1} 
+40% {color:#cdb48c;text-shadow: 0px 0px 3px #cdb48c} 
+50% {color:#ffd602;text-shadow: 0px 0px 3px #ffd602} 
+60% {color:#e66665;text-shadow: 0px 0px 3px #e66665} 
+70% {color:#f47d43;text-shadow: 0px 0px 3px #f47d43} 
+80% {color:#ae70af;text-shadow: 0px 0px 3px #ae70af} 
+90% {color:#076bb6;text-shadow: 0px 0px 3px #076bb6} 
+100% {color:#accbe8;text-shadow: 0px 0px 3px #accbe8} 
+}

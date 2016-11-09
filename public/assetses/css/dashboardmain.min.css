@@ -1,0 +1,155 @@
+body#dashboard {
+  background:#ccc;
+}
+/** Helpers **/
+.panel {
+    margin-bottom: 10px;
+    border: 1px solid #000!important;
+    border-radius: 0px!important;
+    color: #fff;
+    background-color: transparent;
+}
+.panel-body {
+    padding: 12px;
+    background:#010C22;
+    border: 1px solid transparent;
+    border-radius: 0px!important;
+}
+.panel-heading {
+  background:#010c22;
+  border-bottom:1px solid #79096B!important;
+  border: 1px solid transparent;
+  border-radius: 0px!important;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-family: lato;
+}
+.panel-title {
+  background: rgba(0,0,0,0.1)!important;
+  border-bottom:1px solid #79096B!important;
+  border: 0px solid transparent;
+  border-radius: 0px!important;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: lato;
+}
+.panel-footer {
+  background:#222;
+  padding:5px 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  border-top:1px solid transparent;
+}
+.row.no-gutters {
+  margin-right: 5;
+  margin-left: 5;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 5;
+  padding-left: 5;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active, .dataTables_length > label, .dataTables_filter > label {
+  color: #fff
+}
+.dataTables_length > label > select, .dataTables_filter > label > input {
+  color : #222
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover, .dataTables_wrapper .dataTables_paginate .paginate_button {
+  color : #fff;
+  background: #222
+}
+table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1, table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1, table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_1 {
+  background-color:  #333;
+  text-align: center;
+  font-size: 12px
+}
+table.dataTable tr:nth-child(odd), table.dataTable tr:nth-child(odd) td, table.dataTable tr, table.dataTable tr:nth-child(even), table.dataTable tr td, table.dataTable tr:nth-child(even) td  {
+  background-color:  #333;
+  text-align: center;
+  font-size: 12px
+}
+table.dataTable thead tr:nth-child(odd){
+  background-color:  #222;
+}
+/** DASHBOARD **/
+
+.navbar-fixed-left {
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  padding: 60px 0px 0px 0px;
+}
+.navbar-fixed-left ul {
+  text-align: center;
+  margin: auto;
+}
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 100px;
+}
+
+.navbar-fixed-left #leftnav {
+  padding: 0px;
+}
+
+.navbar-fixed-left .navbar-nav > li > a > p {
+    margin: 0 0 0 0;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.navbar-fixed-left .navbar-nav > li > a {
+    padding: 15px 10px;
+}
+
+.navbar-fixed-left .navbar-nav >li > a > .icon {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+.navbar-fixed-left .navbar-nav >li > a > .text {
+  font-size: 12px;
+  font-family: lato;
+}
+.db-main {
+  margin-left:96px;
+  padding-top: 70px;
+}
+.db-page-header {
+  padding: 10px 15px;
+  margin: 0px;
+  border-bottom: 0px solid transparent;
+  background: #222;
+  color:#fff;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 999;
+}
+.page-header {
+  padding-left: 20px;
+}
+#db-panel {
+  border:1px solid #222!important;
+  box-shadow: 2px 0px 5px #aaa;
+}
+#db-panel .panel-heading {
+  background: #222;
+  border-bottom: 1px solid transparent!important;
+  color:#eee;
+  font-size: 19px!important;
+}
+#db-panel .panel-body {
+  background: #333;
+}
+#db-panel .panel-body p {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-bottom: -5px;
+}
+#db-panel .cbox {
+  height: 750px;
+}

@@ -1,0 +1,126 @@
+/**
+------------------------
+NOTE: DO NOT DELETE THIS
+************************
+App.Name    : iNEW CBOX
+App.Author  : iNEW WORKS
+App.Version : v1.0
+************************
+Date.Created       : May 19 2016
+Date.Last-Modified : 7:30pm June 22 2016
+------------------------
+**/
+.msgcomp {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0px 0px 0px;
+  display: block;
+  border:0px !important;
+}
+.pr-i {
+  font-weight: bolder;
+  vertical-align: middle;
+  font-family: lato;
+  font-size: 11px;
+}
+.pr-i a {
+   font-weight: bolder;
+   vertical-align: middle;
+   text-decoration: none;
+   font-family: lato;
+   font-size: 15px;
+}
+.pr-i a:hover {
+  text-decoration: none;
+}
+.pr-img {
+  border-radius: 50%;
+  border : 1px solid #333;
+}
+.chat-body {
+  padding: 10px 15px;
+background: #0a1c30;
+border-radius: 10px;
+}
+.chat-body:before {
+  content: '';
+/* margin-bottom: 10px; */
+left: 50px;
+width: 0;
+height: 0;
+border: 10px solid transparent;
+border-right: 10px solid #0a1c30;
+/* top: 5px; */
+position: absolute;
+}
+.alert-annc {
+    display: block;
+    width: 420px;
+    margin: auto!important;
+    margin: 0px;
+    text-align: center;
+    background: #0a1c30;
+    border-radius: 15px;
+  }
+.alert-annc2 {
+    display: block;
+    width: 420px;
+    margin: auto!important;
+    margin: 0px;
+    text-align: center;
+    background: #0a1c30;
+    border-radius: 15px;
+  }
+.alert-annc .annc-head {
+  font-size: 15px;
+    margin: 0px 0px 10px 0px;
+    padding: px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    font-family: lato;
+}
+.annc-img {
+  position: relative;
+  margin-top: -70px;
+  margin-right: 70px;
+}
+.load-more {
+  cursor: pointer;
+  text-align: center;
+  width: 350px;
+  display: block;
+  margin: auto;
+  padding: 5px 10px;
+  background: #0a1c30;
+  color:#aaa;
+  border: 1px solid #0a1c30;
+  font-size: 12px;
+}
+.text-box {
+  background: rgba(0,0,0,0.3);
+    border: 1px solid #79096B;
+    box-shadow: none!important;
+    color: #fff;
+}
+.text-box:focus {
+  border: 1px solid #79096B;
+}
+.text-box:disabled {
+  background: rgba(0,0,0,0.3);
+}
+.text-butts {
+  background: #79096B;
+    border: 1px solid #79096B;
+    color: #bbb;
+}
+.text-butts:hover,
+.text-butts:active,
+.text-butts:focus {
+  background: #79096B!important;
+    border: 1px solid #79096B!important;
+    color: #bbb!important;
+    opacity: 0.9!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
